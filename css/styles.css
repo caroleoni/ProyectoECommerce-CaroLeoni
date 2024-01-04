@@ -146,26 +146,26 @@ h3 {font-size: 2.4rem;}
     text-align: center; /*esto luego lo saco, para agregar un corazon a la derecha del precio que marque los me gusta*/
 }
 
-/*NOSOTROS*/
-.nosotros {
+/*sobreMi*/
+.sobreMi {
     display: grid;
     grid-template-rows: repeat(2, auto);
 }
 
 @media (min-width: 768px) {
-    .nosotros {
+    .sobreMi {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }
 }
 
-.nosotros__imagen {
+.sobreMi__imagen {
     grid-row: 1 / 2;
    width: 100%;
 }
 
 @media (min-width: 768px) {
-    .nosotros__imagen {
+    .sobreMi__imagen {
         grid-column: 2 / 3;
         
     }
